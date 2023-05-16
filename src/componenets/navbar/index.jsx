@@ -1,4 +1,4 @@
-import { useState } from "react"
+import {useState} from "react"
 
 const NavBar = ()=>{
     const links = ["Home", "Product", "Faq", "Contact"]

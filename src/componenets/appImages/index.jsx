@@ -1,9 +1,10 @@
 import { unstable_renderSubtreeIntoContainer } from "react-dom";
 
 const AppImages= ()=>{
-    return<div className="flex items-center justify-center relative md:top-[-250px] ">
+    return<div className="flex items-center justify-center relative md:top-[-250px] top-12 ">
     <img src="/left-img.png" alt="" className="relative top-[-60px] right-[-50px] md:right-[-110px]"/>
     <img src="/right-img.png" alt="" className="relative right-[120px] md:right-[110px] w-[219px] h-[408px] md:w-[285px] md:h-[531px]"/>
 </div>
 }
+
 export default AppImages;

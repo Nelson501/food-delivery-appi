@@ -3,6 +3,7 @@ import Hero from "./componenets/hero"
 import AppImages from "./componenets/appImages"
 import Explanation from "./componenets/explanation"
 import Section from "./componenets/section"
+import Footer from "./componenets/footer"
 
 function App() {
 
@@ -11,9 +12,10 @@ function App() {
       <NavBar/>
       <Hero/>
       <AppImages/>
-
       <hr/>
       <Explanation />
+      <Section />
+      <Footer />
   
     </div>
   )
